@@ -5,3 +5,16 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+div{
+    width: 50px;
+    height: 50px;
+    background-color: #F6F6F6;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
