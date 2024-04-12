@@ -6,7 +6,15 @@
     box-sizing: border-box;
 }
 
-div{
+header{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    right: 0;
+    padding-top: 1rem;
+}
+
+div.nav{
     width: 50px;
     height: 50px;
     background-color: #F6F6F6;
@@ -18,3 +26,50 @@ div{
     align-items: center;
     margin: 1rem;
 }
+
+div.product{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.bg-red{
+    background-color: red;
+    height: 100vh;
+}
+
+section.bg-green{
+    background-color: green;
+    height: 100vh;
+}
+
+section.bg-yellow{
+    background-color: yellow;
+    height: 100vh;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: yellow;
+}
+
+.bg-yellow h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: green;
+}
+
+
+
+
+
+
